@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+  line-height: 1.2;
+}
+
+nav {
+  background-color: antiquewhite;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  min-width: 300px;
+  list-style: none;
+}
+
+nav ul li {
+  padding-right: 2%;
+  margin: 0%;
+}
+
+nav a {
+  color: #13293d;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: aqua;
+  background-color: rgb(218, 173, 114);
+}
+
+h1 {
+  font-family: garamond;
+  font-size: 260%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+  background-color: azure;
+  color: #13293d;
+}
+
+header img {
+  width: 25%;
+  height: 25%;
+}
