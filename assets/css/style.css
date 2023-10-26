@@ -51,7 +51,7 @@ header {
   color: #13293d;
 }
 
-header img {
+.avatar {
   width: 25%;
   height: 25%;
 }
@@ -91,7 +91,31 @@ main section {
   justify-content: space-between;
 }
 
+.sectionBody a:hover {
+  background-color: aquamarine;
+}
+
 .projectImage {
   width: 200px;
   height: 160px;
+}
+
+.projectImage:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    text-align: center;
+  }
+
+  main section {
+    flex-direction: column;
+    padding-left: 120px;
+  }
+
+  .project {
+    flex-direction: column;
+  }
 }
