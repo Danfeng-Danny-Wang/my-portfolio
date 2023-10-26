@@ -54,3 +54,43 @@ header img {
   width: 25%;
   height: 25%;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main section {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2%;
+}
+
+.sectionTitle {
+  color: #13293d;
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10%;
+}
+
+.sectionBody {
+  border-style: dotted;
+  border-color: rgb(218, 173, 114);
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-right: 10%;
+}
+
+.project {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projectImage {
+  width: 200px;
+  height: 160px;
+}
